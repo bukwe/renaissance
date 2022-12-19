@@ -1313,15 +1313,14 @@ a.contact_value {
 
 .swiper {
   width: 100%;
-  height: 100%;
-  margin-top: 50px;
+  height: 100%; 
 }
 
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
-  height: 500px;
+  background: transparent;
+  height: 400px;
 
   /* Center slide text vertically */
   display: -webkit-box;
@@ -1341,8 +1340,8 @@ a.contact_value {
 .swiper-slide img {
   display: block;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: 70%;
+  object-fit:contain;
 }
 
 .swiper-slide {
